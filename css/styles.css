@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/**:not(html):not(body) {
+  border: dashed 1px black;
+}*/
+body {
+  padding: 2vh 2vw;
+}
+
+.brand-group {
+  height: 106px;
+  position: relative;
+  /*border: solid 3px red;*/
+}
+
+.brand-group img {
+  border-radius: 100%;
+  float: left;
+}
+
+.brand-group p {
+  /*float: left;*/
+  font-size: 2em;
+  position: relative;
+  top: 50%;
+  left: 15px;
+  transform: translateY(-50%);
+}
+
+.brand-group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.nav {
+  padding: 1vh 0;
+  background-color: black;
+  overflow: auto;
+}
+
+.nav ul {
+  list-style: none;
+  width: 96vw;
+}
+
+.nav li {
+  width: 25%;
+  text-align: center;
+  color: lightgray;
+  float: left;
+}
+
+.intro-text {
+  clear: left;
+  width: 96vw;
+  margin-top: 2vh;
+}
+
+.hero {
+  width: 96vw;
+}
+
+.hero img {
+  width: 80%;
+  border-radius: 100%;
+  margin-top: 2vh;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.sub-images img {
+  width:96vw;
+  margin-top: 3vh;
+}
+
+.paragraph-group {
+  margin-top: 2vh;
+}
+
+.profile-group {
+  margin-top: 2vh;
+  overflow: auto;
+}
+
+.profile-img {
+  width: 20vw;
+  float: left;
+  /*border: 1px solid pink;*/
+}
+
+.profile-img img {
+  width: 100%;
+  margin-right: 10px;
+}
+
+.profile-text {
+  width: 70vw;
+  margin-left: 2vw;
+  float: left;
+}
